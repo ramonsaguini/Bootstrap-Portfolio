@@ -1,0 +1,16 @@
+body{
+  margin: 0 auto;
+  padding: 0;
+  background-color: rgb(219, 224, 224);
+}
+.top{
+  margin: 100px;
+}
+nav li{
+  border-bottom: 2px solid black;
+  margin: 10px;
+}
+nav li:hover{
+  background-color: rgb(174, 176, 176);
+  border-radius: 5px;
+}
