@@ -1,153 +1,164 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/img/icon.jpg">
-  
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 
   <link rel="stylesheet" href="./assets/CSS/style.css">
-  
+
   <title>Ramon's Portfolio</title>
 </head>
 
 <body>
-  <!-- NavBar  -->
+  <!-- ///////////////// NavBar ///////////////  -->
 
-  <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
-    <div class="container-fluid ">
+  <nav class="navbar navbar-expand-lg bg-body-tertiary row">
+    <div class="container-fluid">
       <a class="navbar-brand" href="#"><img src="./assets/img/logo.png" width="300" height="100"></a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse justify-content-center " id="navbarNavDropdown">
         <ul class="navbar-nav ">
-          <li class="nav-item">
-            <a class="nav-link p-4" href="#">Home</a>
+          <li class="nav-item text-center">
+            <a class="nav-link" href="#">Home</a>
           </li>
-          <li class="nav-item p-3 ">
-            <a class="nav-link" href="#">About me</a>
+          <li class="nav-item  text-center">
+            <a class="nav-link" href="#about">About me</a>
           </li>
-          
-          <li class="nav-item dropdown p-3">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+
+          <li class="nav-item dropdown ">
+            <a class="nav-link dropdown-toggle text-center" href="#" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
               Work
             </a>
-            <ul class="dropdown-menu">
+            <ul class="dropdown-menu text-center">
               <li><a class="dropdown-item" href="#">Action</a></li>
-              <li><a class="dropdown-item" href="#card2">Samanta Costa WebSite</a></li>
+              <li><a class="dropdown-item " href="#card2">Samanta Costa WebSite</a></li>
               <li><a class="dropdown-item" href="#">Lamp App</a></li>
               <li><a class="dropdown-item" href="#">card3</a></li>
               <li><a class="dropdown-item" href="#">Card 4</a></li>
             </ul>
           </li>
-          <li class="nav-item p-3">
+          <li class="nav-item text-center">
             <a class="nav-link" href="#">Contact</a>
           </li>
         </ul>
       </div>
     </div>
   </nav>
-<div class="top"></div>
-  <!-- About me section -->
-  <div class="card mt-5 pt-5 mx-3 bg-secondary-subtle">
+
+  <!-- ////////// About me section ///////////// -->
+  <div class="card bg-secondary-subtle row">
     <div class="row">
       <div class="col-md-3">
         <img src="./assets/img/ramon.img.jpg" class="img-fluid rounded-pill" alt="Ramon's photo">
       </div>
-      <div class="col-md-8 ">
+      <div class="col-md-8 " id="about">
         <div class="card-body pt-5 ">
           <h1 class="fw-bold">Welcome</h1>
           <h2 class=>My name is Ramon Andrade<h2>
-            <p class="fw-light">I am a dedicated professional with knowledge in 
-            HTML<img src="./assets/img/html.png" width="50"> 
-            CSS <img src="./assets/img/css-3.png" width="50"> BootStrap <img src="./assets/img/bootstrap.svg" width="50"> GitHub <img src="./assets/img/github-sign.png" width="50">
-            & JavaScript <img src="./assets/img/js.png" width="50"><br> 
-            My portfolio contains some projects that demonstrate my passion and skills in programming. <br>
-            I am always looking for more knowledge and opportunities to expand my horizons with new knowledge and improvement of the knowledge I already have, because</p>
-          <p class=" fst-italic fw-bold text-decoration-underline">KNOWLEDGE IS NEVER TOO MUCH!</p>
+              <p class="fw-light">I am a dedicated professional with knowledge in
+                HTML<img src="./assets/img/html.png" width="50">
+                CSS <img src="./assets/img/css-3.png" width="50"> BootStrap <img src="./assets/img/bootstrap.svg"
+                  width="50"> GitHub <img src="./assets/img/github-sign.png" width="50">
+                & JavaScript <img src="./assets/img/js.png" width="50"><br>
+                My portfolio contains some projects that demonstrate my passion and skills in programming. <br>
+                I am always looking for more knowledge and opportunities to expand my horizons with new knowledge and
+                improvement of the knowledge I already have, because</p>
+              <p class=" fst-italic fw-bold text-decoration-underline">KNOWLEDGE IS NEVER TOO MUCH!</p>
         </div>
       </div>
     </div>
   </div>
 
-<!-- Work section -->
+  <!-- ///////////// Work section /////////////// -->
 
-<div class="col mt-2 p-3" id="card1">
-  <div class="card align-items-center justify-content-center">
-    <a href="https://site-88uh6wqe1-ramonsaguini.vercel.app/" target="_blank" alt=" Website samanta costa image">
-      <img src="./assets/img/lamp-app.png" class="card-img-top" alt="Website samanta costa image">
-    </a>
-      <div class="card-body">
-      <h5 class="card text-center text-bg-light mb-3">Samanta Costa WebSite</h5>
-      <p class="text-center"> Developed with:</p>
-      <p class="card-text"> HTML<img src="./assets/img/html.png" width="50"> & BootStrap <img src="./assets/img/bootstrap.svg" width="50"> </p>
-    </div>
+  <!--  work-text -->
+  <div class="work-text d-flex justify-content-center align-items-center">
+    <h2> Work </h2>
+    <img src="./assets/img/working.png" alt="">
   </div>
-</div>
 
+  <!-- work-Images -->
 
-<div class="row row-cols-1 row-cols-md-2 g-4 p-3">
-<!-- Card 2   -->
-  <div class="col" id="card2">
-    <div class="card align-items-center justify-content-center">
-      <a href="https://site-88uh6wqe1-ramonsaguini.vercel.app/" target="_blank" alt=" Website samanta costa image">
-        <img src="./assets/img/site-samanta.png" class="card-img-top" alt="Website samanta costa image">
-      </a>
+  <div class="row row-cols-1 row-cols-md-2 g-4 ">
+    <div class="col">
+      <div class="card">
+        <img src="./assets/img/travel-california.png" class="card-img-top" alt="...">
+        <div class="card-body text-center">
+          <h5 class="card-title text-center">Travel California</h5>
+          <p class="text-center"> <strong>Developed with:</strong><br>
+            HTML<img src="./assets/img/html.png" width="20">
+            CSS <img src="./assets/img/css-3.png" width="20">
+            & BootStrap <img src="./assets/img/bootstrap.svg" width="20"> </p>
+          <a href="https://ramonsaguini.github.io/travel-california/" class="btn btn-primary " target="_blank">Visit
+            us!</a>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <img src="./assets/img/site-samanta.png" class="card-img-fluid" alt="...">
+        <div class="card-body text-center">
+          <h5 class="card-title">Samanta Costa WebSite</h5>
+          <p class=""> <strong>Developed with:</strong> <br>
+            HTML<img src="./assets/img/html.png" width="20">
+            CSS <img src="./assets/img/css-3.png" width="20">
+            & BootStrap <img src="./assets/img/bootstrap.svg" width="20"> </p>
+          <a href="https://site-88uh6wqe1-ramonsaguini.vercel.app/" class="btn btn-primary" target="_blank">Visit
+            us!</a>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-auto">
+        <img src="./assets/img/lamp.gif" class="card-img-fluid" alt="...">
+        <div class="card-body text-center">
+          <h5 class="card-title">Lamp App</h5>
+          <p class=""> <strong>Developed with:</strong> <br>
+            HTML<img src="./assets/img/html.png" width="20">
+            CSS <img src="./assets/img/css-3.png" width="20">
+            & JavaScript <img src="./assets/img/js.png" width="20"> </p>
+          <a href="https://ramonsaguini.github.io/turnOnTurnOffLamp/" class="btn btn-primary" target="_blank">Visit
+            us!</a>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <img src="./assets/img/weather-app.png" class="card-img-top" alt="...">
         <div class="card-body">
-        <h5 class="card text-center text-bg-light mb-3">Samanta Costa WebSite</h5>
-        <p class="text-center"> Developed with:</p>
-        <p class="card-text"> HTML<img src="./assets/img/html.png" width="50"> & BootStrap <img src="./assets/img/bootstrap.svg" width="50"> </p>
+          <h5 class="card-title">Weather forecast App</h5>
+          <p class="card-text"><strong>Developed with:</strong><br>HTML<img src="./assets/img/html.png" width="20">
+            CSS <img src="./assets/img/css-3.png" width="20">
+            & JavaScript <img src="./assets/img/js.png" width="20"></p>
+          <a href="https://ramonsaguini.github.io/weather/" class="btn btn-primary">Visit Us</a>
+        </div>
       </div>
     </div>
   </div>
 
-  <!-- Card 3  -->
-  <div class="col" id="card3">
-    <div class="card align-items-center justify-content-center">
-      <a  href="https://ramonsaguini.github.io/turnOnTurnOffLamp/" target="_blank">
-      <img src="./assets/img/lamp.gif" class="card-img-top" alt="lamp app image">
-      <div class="card-body">
-      </a>
-        <h5 class="card text-center text-bg-light mb-3">Lamp App</h5>
-        <p class="text-center">Developed with: </p>
-        <p class="card-text"> HTML<img src="./assets/img/html.png" width="50"> 
-          CSS <img src="./assets/img/css-3.png" width="50"> 
-          & JavaScript <img src="./assets/img/js.png" width="50"></p>
+  <!--  antigo -->
+  
+    <div class="card mt-2" id="card4">
+        <img src="./assets/img/weather-app.png" class="card-img-top" alt="Weather app image">
+        <div class="card-body text-center">
+          <h5 class="card-title">Weather forecast App</h5>
+          <p class="card-text"><strong>Developed with:</strong><br>HTML<img src="./assets/img/html.png" width="20">
+            CSS <img src="./assets/img/css-3.png" width="20">
+            & JavaScript <img src="./assets/img/js.png" width="20"></p>
+          <a href="https://ramonsaguini.github.io/weather/" class="btn btn-primary">Visit Us</a>
+        </div>
       </div>
     </div>
   </div>
-  <!-- Card 4 -->
-  <div class="col" id="card4"> 
-    <div class="card align-items-center justify-content-center">
-      <a  href="https://ramonsaguini.github.io/turnOnTurnOffLamp/" target="_blank">
-      <img src="./assets/img/lamp.gif" class="card-img-top" alt="lamp app image">
-      <div class="card-body">
-      </a>
-        <h5 class="card text-center text-bg-light mb-3">Lamp App</h5>
-        <p class="text-center">Developed with: </p>
-        <p class="card-text"> HTML<img src="./assets/img/html.png" width="50"> 
-          CSS <img src="./assets/img/css-3.png" width="50"> 
-          & JavaScript <img src="./assets/img/js.png" width="50"></p>
-      </div>
-    </div>
-  </div>
-  <!-- Card 5 -->
-  <div class="col" id="card5">
-    <div class="card align-items-center justify-content-center">
-      <a  href="https://ramonsaguini.github.io/turnOnTurnOffLamp/" target="_blank">
-      <img src="./assets/img/lamp.gif" class="card-img-top" alt="lamp app image">
-      <div class="card-body">
-      </a>
-        <h5 class="card text-center text-bg-light mb-3">Lamp App</h5>
-        <p class="text-center">Developed with: </p>
-        <p class="card-text"> HTML<img src="./assets/img/html.png" width="50"> 
-          CSS <img src="./assets/img/css-3.png" width="50"> 
-          & JavaScript <img src="./assets/img/js.png" width="50"></p>
-      </div>
-    </div>
-  </div> 
 
 
 
@@ -156,7 +167,11 @@
 
 
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
 
 </body>
+
 </html>

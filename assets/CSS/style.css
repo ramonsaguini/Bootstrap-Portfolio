@@ -1,19 +1,38 @@
 body{
-  margin: 0 auto;
+  margin: 0;
   padding: 0;
-  background-color: rgb(219, 224, 224);
+  background-color: rgb(118, 243, 243);
 }
 .top{
-  margin: 100px;
+  margin: 150px;
 }
+/*/////////// NavBar ////////// */
 nav li{
   border-bottom: 2px solid black;
   margin: 10px;
+  max-width: 200px;
 }
 nav li:hover{
-  background-color: rgb(174, 176, 176);
+  background-color: rgb(204, 202, 202);
   border-radius: 5px;
+  color: white;
 }
-.carousel-w{
-  max-width:1800px;
+/* //////// About me /////////*/
+
+/* //////// Work ///////////// */
+.work-text{
+  width: 200px;
+  padding: 10px;
+  margin:10px auto ;
+  border-bottom: 5px  groove blue ;
 }
+.work-text h2{
+  font-size: 100px;
+}
+.work-text img{
+  width: 200px;
+}
+
+
+
+
