@@ -1,6 +1,8 @@
 body{
-  margin: 0px;
+  margin: 0 auto;
   padding: 0;
+  overflow-y: scroll;
+  overflow-x: hidden;
   background-color: rgb(192, 195, 195);
 }
 .top{
@@ -34,8 +36,8 @@ nav li:hover{
 }
 
 .card{
-  margin: 10px;
-  border: 5px solid skyblue;
+  margin: 0px;
+  border: 5px solid slateblue;
 }
 .card img{
   max-height: 900px; 
@@ -49,6 +51,7 @@ nav li:hover{
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border: 5px solid slateblue;
 }
 
 .contact-form input,
@@ -71,7 +74,7 @@ nav li:hover{
 }
 
 .contact-form button:hover {
-  background-color: #71df75;
+  background-color: #0ea413;
 }
 
 .contact-main a img{
