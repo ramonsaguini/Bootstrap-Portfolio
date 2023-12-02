@@ -30,6 +30,8 @@ nav li:hover{
 }
 .work-text h2{
   font-size: 100px;
+  margin-right:50px ;
+  margin-left: 50px;
 }
 .work-text img{
   width: 200px;
