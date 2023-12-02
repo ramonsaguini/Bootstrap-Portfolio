@@ -44,6 +44,15 @@ nav li:hover{
 .card img{
   max-height: 900px; 
 }
+
+.card a{
+  width: 300px;
+  box-shadow: 0 5px 3px black;
+}
+
+.card a:hover{
+  transform: scale(1.1)
+}
 /* ///////Contact /////////// */
 
 .contact-container {
@@ -67,21 +76,26 @@ nav li:hover{
 }
 
 .contact-form button {
-  background-color: #71df75;
+  background-color: #04c90a;
   color: #fff;
   padding: 10px 20px;
-  border: none;
   border-radius: 4px;
   cursor: pointer;
+  box-shadow:0px 3px 5px #000000;
 }
 
 .contact-form button:hover {
   background-color: #0ea413;
+  transform: scale(1.1, 1.2)
 }
 
 .contact-main a img{
-  width: 70px;
+  width: 60px;
   margin: 10px;
+}
+
+.contact-main a img:hover{
+  transform: scale(1.1, 1.2)
 }
 
 
