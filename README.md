@@ -11,7 +11,7 @@ This is the repository that contains the source code and files related to my per
 
 ## About me
 
-I am `Ramon Andrade`, a developer passionate about creating innovative solutions and solving challenging problems. My experience includes: `HTML`, `CSS`, `JavaScript` and `BootStrap`.
+I am `Ramon Andrade`, a developer passionate about creating innovative solutions and solving challenging problems. My experience includes: `HTML`, `CSS`, `BootStrap` & `JavaScript`.
 
 ## Projects
 
@@ -98,10 +98,10 @@ Some of the technologies I'm comfortable with include:
 
   - Email: ramon_saguini1@hotmail.com
   - Linkedin <a href="https://www.linkedin.com/in/ramon-saguini-de-andrade-a40728277/" target="_blank">
-              <img src="./assets/img/linkedin.png" width="15" height="15" alt="Linkedin icon" ></a> : https://www.linkedin.com/in/ramon-saguini-de-andrade-a40728277/
+              <img src="./assets/img/linkedin.png" width="15" height="15" alt="Linkedin icon" ></a> https://www.linkedin.com/in/ramon-saguini-de-andrade-a40728277/
   - GitHub <a href="https://github.com/ramonsaguini" target="_blank">
-              <img src="./assets/img/github-sign.png" width="15" height="15" alt="GitHub icon"></a>: https://github.com/ramonsaguini
+              <img src="./assets/img/github-sign.png" width="15" height="15" alt="GitHub icon"></a> https://github.com/ramonsaguini
   - WhatsApp <a href="https://wa.me/4407723028494" target="_blank">
-              <img src="./assets/img/whatsapp (1).png" alt="Whatsapp icon" width="15" height="15" ></a>
+              <img src="./assets/img/whatsapp (1).png" alt="Whatsapp icon" width="15" height="15" > +44 7723 028494</a>
 
 Feel free to explore my projects and get in touch if you have any questions or collaboration opportunities.

@@ -20,6 +20,25 @@ nav li:hover{
   color: white;
 }
 /* //////// About me /////////*/
+/* //////// Skill txt */
+
+.skill-text h2{
+  font-size: 100px;
+}
+
+.skill-text img{
+  width: 180px;
+  margin: 10px;
+}
+
+.skill img{
+  width: 100px;
+}
+.skill-box {
+  border-left: 2px solid blue;
+  border-right:2px solid blue; ;
+  
+}
 
 /* //////// Work ///////////// */
 .work-text{
