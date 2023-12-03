@@ -40,6 +40,11 @@ I am `Ramon Andrade`, a developer passionate about creating innovative solutions
 
 <img src="./assets/img/work-section.png" alt="work section image" >
 
+#### New Skills 
+- Contains all especteds new skills e will learn during my BootCamp
+
+<img src="./assets/img/skills.png" alt="new skills section image" >
+
 #### Contact 
 - Contains ways to contact me:  
   - Form
